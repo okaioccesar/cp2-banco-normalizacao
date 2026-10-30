@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Normalizacao_Kaio" id="EE155B83-0E16-45A3-A289-EB9DA932475C" version="3.5">
+  <createdBy>Kaio Cesar de Sousa Silva</createdBy>
+  <createdTime>2026-10-25 03:36:25 UTC</createdTime>
+  <ownerDesignName>Normalizacao_Kaio</ownerDesignName>
+  <capitalNames>false</capitalNames>
+  <designId>EE155B83-0E16-45A3-A289-EB9DA932475C</designId>
+</OSDM_Design>
