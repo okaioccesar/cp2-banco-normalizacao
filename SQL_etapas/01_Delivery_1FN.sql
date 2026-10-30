@@ -1,0 +1,21 @@
+-- Integrante: Kaio Cesar de Sousa Silva
+-- 01_Delivery_1FN
+
+
+CREATE TABLE REGISTRO_PEDIDO (
+    Nr_Pedido NUMBER(10) NOT NULL,
+    Data_Pedido DATE NOT NULL,
+    ID_Cliente NUMBER(10) NOT NULL,
+    Nome_Cliente VARCHAR2(150 CHAR) NOT NULL,
+    Rua VARCHAR2(150 CHAR) NOT NULL,
+    Numero VARCHAR2(20 CHAR) NOT NULL,
+    Bairro VARCHAR2(100 CHAR) NOT NULL,
+    Cidade VARCHAR2(100 CHAR) NOT NULL,
+    UF CHAR(2 CHAR) NOT NULL,
+    Cod_Prod VARCHAR2(20 CHAR) NOT NULL,
+    Nome_Prod VARCHAR2(150 CHAR) NOT NULL,
+    Preco_Unit NUMBER(10,2) NOT NULL,
+    Qtd NUMBER(10) NOT NULL,
+    Valor_Item NUMBER(10,2) NOT NULL,
+    CONSTRAINT PK_REGISTRO_PEDIDO PRIMARY KEY (Nr_Pedido, Cod_Prod)
+);
